@@ -34,7 +34,5 @@ main {
 .container {
   background-color: #ffff;
 }
-.card_1 {
-  width: calc(100% / 5);
-}
+
 </style>

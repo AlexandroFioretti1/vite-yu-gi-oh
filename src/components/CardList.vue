@@ -16,9 +16,9 @@ export default {
 </script>
 
 <template>
-  <div class="row row-cols-lg-5 row-cols-md-3">
-    <InfoCard :card="card" v-for="card in store.cards" v-if="!store.loading" />
-    <div v-else class="loading">Loading...</div>
+  <div class="row row-cols-lg-5 row-cols-md-3 pt-">
+    <InfoCard :card="card" v-for="card in store.cards" />
+    <div v-if="store.loading" class="loading">Loading...</div>
   </div>
 </template>
 

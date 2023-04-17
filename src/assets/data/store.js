@@ -3,7 +3,7 @@ import axios from "axios";
 
 export const store = reactive({
   loading: true,
-  API_URL: "https://db.ygoprodeck.com/api/v7/cardinfo.php?num=15&offset=5821",
+  API_URL: "https://db.ygoprodeck.com/api/v7/cardinfo.php?num=25&offset=10214",
   cards: null,
   fetchCard(url) {
     axios

@@ -14,8 +14,8 @@ export default {
 <template>
   <footer>
     <section>
-      <div class="container">
-        <span> &copy; copiryght by ...</span>
+      <div class="container text-center">
+        <span> &copy; copiryght by Alexandro Fioretti</span>
       </div>
     </section>
   </footer>

@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-  <div class="col">
+  <div class="col mb-5">
     <div class="card text-center">
       <img
         class="img-fluid"
