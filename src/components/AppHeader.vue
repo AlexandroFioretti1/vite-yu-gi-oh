@@ -13,10 +13,8 @@ export default {
 
 <template>
   <header>
-    <div class="container">
-      <div class="row">
-        <h1>Yu-Gi-Ho API</h1>
-      </div>
+    <div class="container_full">
+      <h1>Yu-Gi-Ho API</h1>
     </div>
   </header>
 </template>
@@ -24,5 +22,14 @@ export default {
 <style lang="scss">
 header {
   background-color: #d58f39;
+  padding: 0 0 3rem 0;
+}
+.container_full {
+  width: 100%;
+  background-color: #ffff;
+  height: 70px;
+}
+h1 {
+  padding-left: 10rem;
 }
 </style>
