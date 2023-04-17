@@ -13,8 +13,16 @@ export default {
 
 <template>
   <footer>
-    <h2>io</h2>
+    <section>
+      <div class="container">
+        <span> &copy; copiryght by ...</span>
+      </div>
+    </section>
   </footer>
 </template>
 
-<style></style>
+<style lang="scss">
+footer {
+  background-color: #d58f39;
+}
+</style>

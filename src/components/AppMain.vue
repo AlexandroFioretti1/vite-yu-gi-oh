@@ -13,8 +13,25 @@ export default {
 
 <template>
   <main>
-    <h2>ciao</h2>
+    <div class="container">
+      <div class="row">
+        <h2 class="bg_dark">found ** Cards</h2>
+        <div class="card">
+          <img src="" alt="" />
+          <div class="title">description</div>
+          <div>description</div>
+        </div>
+      </div>
+    </div>
   </main>
 </template>
 
-<style></style>
+<style lang="scss">
+main {
+  background-color: #d58f39;
+}
+.bg_dark {
+  color: white;
+  background-color: #212428;
+}
+</style>

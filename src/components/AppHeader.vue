@@ -15,11 +15,14 @@ export default {
   <header>
     <div class="container">
       <div class="row">
-        <img src="" alt="img logo" />
         <h1>Yu-Gi-Ho API</h1>
       </div>
     </div>
   </header>
 </template>
 
-<style></style>
+<style lang="scss">
+header {
+  background-color: #d58f39;
+}
+</style>
