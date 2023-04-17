@@ -27,7 +27,6 @@ header {
 .container_full {
   width: 100%;
   background-color: #ffff;
-  height: 70px;
 }
 h1 {
   padding-left: 10rem;

@@ -1,8 +1,12 @@
 <script>
 import { store } from "../assets/data/store";
+import CardList from "./CardList.vue";
 
 export default {
   name: "AppMain",
+  components: {
+    CardList,
+  },
   data() {
     return {
       store,
@@ -14,59 +18,7 @@ export default {
 <template>
   <main>
     <div class="container">
-      <div class="row">
-        <h2 class="bg_dark">found ** Cards</h2>
-        <div class="card">
-          <img src="" alt="img" />
-          <div class="title">description</div>
-          <span>description</span>
-        </div>
-        <div class="card">
-          <img src="" alt="img" />
-          <div class="title">description</div>
-          <span>description</span>
-        </div>
-        <div class="card">
-          <img src="" alt="img" />
-          <div class="title">description</div>
-          <span>description</span>
-        </div>
-        <div class="card">
-          <img src="" alt="img" />
-          <div class="title">description</div>
-          <span>description</span>
-        </div>
-        <div class="card">
-          <img src="" alt="img" />
-          <div class="title">description</div>
-          <span>description</span>
-        </div>
-        <div class="card">
-          <img src="" alt="img" />
-          <div class="title">description</div>
-          <span>description</span>
-        </div>
-        <div class="card">
-          <img src="" alt="img" />
-          <div class="title">description</div>
-          <span>description</span>
-        </div>
-        <div class="card">
-          <img src="" alt="img" />
-          <div class="title">description</div>
-          <span>description</span>
-        </div>
-        <div class="card">
-          <img src="" alt="img" />
-          <div class="title">description</div>
-          <span>description</span>
-        </div>
-        <div class="card">
-          <img src="" alt="img" />
-          <div class="title">description</div>
-          <span>description</span>
-        </div>
-      </div>
+      <CardList />
     </div>
   </main>
 </template>
@@ -74,7 +26,6 @@ export default {
 <style lang="scss">
 main {
   background-color: #d58f39;
-  height: 500px;
 }
 .bg_dark {
   color: white;
@@ -83,8 +34,7 @@ main {
 .container {
   background-color: #ffff;
 }
-.card {
-  width: calc(90% / 5);
-  margin: auto;
+.card_1 {
+  width: calc(100% / 5);
 }
 </style>
